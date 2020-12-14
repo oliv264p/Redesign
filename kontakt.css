@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    font-size: 62.5%;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -5,11 +10,12 @@ img {
 
 html {
     background-color: #CBF5FF;
-    font-size: 0.49rem;
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
 }
 
 /*OLIVERS KODE HER */
+
 .form-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -20,6 +26,7 @@ html {
     color: #fff;
     border-radius: 8px;
     margin-top: 15vh;
+<<<<<<< HEAD
     font-size: 2rem;
 }
 
@@ -32,34 +39,82 @@ html {
     margin-left: 1vw;
     margin-top: 1vh;
 
+=======
+    margin-left: 5em;
+    margin-right: 5em;
+>>>>>>> Redesign/master
 }
 
 article {
     padding-right: 2rem;
     border-right: 2px solid #238db4;
+<<<<<<< HEAD
     margin-left: 1vw;
     margin-top: 1vh;
+=======
+}
+
+article h2 {
+  font-size: 4em;
+}
+
+article p {
+    font-size: 2em;
+>>>>>>> Redesign/master
 }
 
 /* Forms CSS */
 .form-felt {
+<<<<<<< HEAD
     margin-bottom: 1rem;
+=======
+    margin-bottom: 2em;
+    /*font-size: 2em;*/
+>>>>>>> Redesign/master
 }
 
 label {
     display: grid;
     justify-items: start;
     font-weight: 600;
+<<<<<<< HEAD
     padding-bottom: 2vh;
+=======
+}
+
+label p {
+    font-size: 5em;
+}
+
+label liste {
+    font-size: 5em;
+>>>>>>> Redesign/master
 }
 
 input {
     display: block;
+<<<<<<< HEAD
     font-size: 2rem;
     padding: .5rem;
     border-radius: 4px;
     border: 0;
     margin-top: 1vh;
+=======
+    font-size: 5em;
+    padding: .5rem;
+    border-radius: 4px;
+    border: 0;
+}
+
+textarea {
+    font-size: 8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+select {
+    font-size: 7em;
+    font-family: 'Roboto', sans-serif;
+>>>>>>> Redesign/master
 }
 
 textarea {
@@ -92,7 +147,11 @@ button {
     color: #fff;
     text-shadow: 0 0 6px rgb(0 0 0 / 40%);
     font-weight: 700;
+<<<<<<< HEAD
     font-size: 3rem;
+=======
+    font-size: 2em;
+>>>>>>> Redesign/master
 }
 
 /*OLIVERS KODE HER */
@@ -119,7 +178,7 @@ button {
 
     nav {
         display: grid;
-        min-height: 10em;
+        height: 55px;
         grid-auto-flow: column;
         background-color: #FFFFFF;
         grid-gap: 1em;
@@ -132,12 +191,9 @@ button {
     #logo {
         display: grid;
         margin: auto;
-        background-image: url(mintrecordslogo.svg);
         background-size: cover;
-        width: 36%;
-        height: 223%;
-        padding-right: 7em;
-        padding-left: 7em;
+        height: 180px;
+        width: 150px;
     }
 
     #links1 {
@@ -146,7 +202,7 @@ button {
         align-content: center;
         grid-auto-flow: column;
         grid-gap: 40em;
-        padding-right: 0em;
+        padding-bottom: 115px;
     }
 
     #links2 {
@@ -155,7 +211,7 @@ button {
         align-content: center;
         grid-auto-flow: column;
         grid-gap: 40em;
-        padding-left: 0em;
+        padding-bottom: 115px;
     }
 
     nav a {
