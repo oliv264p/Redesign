@@ -3,25 +3,102 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+    <title>Kontakt Os</title>
+    <link rel="stylesheet" href="kontakt.css">
+
+
 </head>
- <header>
-        <nav>
-            <div id="links1">
-                <a href="index.html">Forside</a>
-                <a href="omos.html">Om os</a>
-            </div>
-            <div id="logo">
-                <a href="index.html"></a>
-            </div>
-            <div id="links2">
-                <a href="kontakt.html">Kontakt os</a>
-                <a href="varer.html">Varer</a>
-            </div>
-        </nav>
-    </header>
+
 <body>
-    <script src=""></script>
+<header>
+
+    <nav>
+        <div id="links1">
+            <a href="index.html">Forside</a>
+            <a href="omos.html">Om os</a>
+        </div>
+        <div id="logo">
+            <a href="index.html"></a>
+        </div>
+        <div id="links2">
+            <a href="kontakt.html">Kontakt os</a>
+            <a href="varer.html">Varer</a>
+        </div>
+    </nav>
+</header>
+
+<section class="form-section">
+      <article>
+        <h2>Skriv til os</h2>
+        <p>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra jer.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </article>
+
+      <!-- Form HTML -->
+      <form action="tak.html" name="kontakt" netlify>
+        <div class="form-felt">
+          <label>
+            Fulde navn
+            <input placeholder="fx Peter Jensen" type="text" name="fnavn" required>
+          </label>
+        </div>
+
+        <div class="form-felt">
+          <label>
+            E-mail
+            <input placeholder="fx peter@gmail.com" name="email" type="email" required>
+          </label>
+        </div>
+
+        <div class="form-felt">
+          <label>
+            Emne
+            <select name="liste">
+              <option value="">Vælg emne</option>
+              <option value="studerende">Køb</option>
+              <option value="underviser">Salg</option>
+              <option value="underviser">Generelle spørgsmål</option>
+              <option value="underviser">Andet</option>
+              <br>
+              <br>
+              <br>
+            </select>
+          </label>
+        </div>
+
+        <div class="form-felt">
+          <label>
+            Skriv din besked her
+            <textarea name="besked" input placeholder="Fortæl os lidt om hvad din henvendelse drejer sig om!" rows="5" cols="23"></textarea>
+          </label>
+        </div>
+
+        <button>Send formular</button>
+      </form>
+
+    </section>
+
+
+
+
+
+
 </body>
+
 </html>
