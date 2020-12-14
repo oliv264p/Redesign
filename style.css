@@ -5,6 +5,7 @@
 
 img {
     width: 100%;
+    height: auto;
 }
 
 html {
@@ -50,7 +51,7 @@ html {
         background-image: url(mintrecordslogo.svg);
         background-size: cover;
         width: 36%;
-        height: 217%;
+        height: 223%;
         padding-right: 7em;
         padding-left: 7em;
     }
@@ -96,6 +97,39 @@ html {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
     }
+
+    video {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 1vw;
+    }
+    #kart {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding-bottom: 10em;
+        padding-top: 10em;
+        background-color: #EBFBFF;
+    }
+
+    #google {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding-left: 5em;
+    }
+
+    #informasjon {
+        background-color: #B2DCDC;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    #tekst {
+        padding-top: 10em;
+        padding-left: 10em;
+        font-size: 3em;
+    }
+
 
     footer {
         display: grid;
