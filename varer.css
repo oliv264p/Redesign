@@ -5,6 +5,7 @@
 
 img {
     width: 100%;
+    height: auto;
 }
 
 html {
@@ -83,8 +84,6 @@ html {
         color: #0045C7;
     }
 
-
-
     .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -99,10 +98,11 @@ html {
     #varer .section_wrapper {
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
-        font-size: 4em;
+        font-size: 5em;
         text-align: center;
         padding-bottom: 30px;
     }
+
 
     .album1 {
         grid-column-start: 2;
@@ -167,12 +167,13 @@ html {
         grid-row-end: span 4;
     }
 
-    h2 {
-        margin-top: 1em;
+    h3 {
+        margin-top: 2em;
         font-family: 'Roboto', sans-serif;
         text-align: center;
-        font-size: 5em;
-        font-weight: 300;
+        font-size: 3em;
+        font-weight: 100;
+        margin-bottom: 2em;
     }
 
     footer {
