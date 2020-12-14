@@ -26,32 +26,13 @@ html {
     color: #fff;
     border-radius: 8px;
     margin-top: 15vh;
-<<<<<<< HEAD
-    font-size: 2rem;
-}
-
-
-.kontakt_h2{
-    display: contents;
-}
-
-#hojre_side_paa_kontakt{
-    margin-left: 1vw;
-    margin-top: 1vh;
-
-=======
     margin-left: 5em;
     margin-right: 5em;
->>>>>>> Redesign/master
 }
 
 article {
     padding-right: 2rem;
     border-right: 2px solid #238db4;
-<<<<<<< HEAD
-    margin-left: 1vw;
-    margin-top: 1vh;
-=======
 }
 
 article h2 {
@@ -60,26 +41,18 @@ article h2 {
 
 article p {
     font-size: 2em;
->>>>>>> Redesign/master
 }
 
 /* Forms CSS */
 .form-felt {
-<<<<<<< HEAD
-    margin-bottom: 1rem;
-=======
     margin-bottom: 2em;
     /*font-size: 2em;*/
->>>>>>> Redesign/master
 }
 
 label {
     display: grid;
     justify-items: start;
     font-weight: 600;
-<<<<<<< HEAD
-    padding-bottom: 2vh;
-=======
 }
 
 label p {
@@ -88,18 +61,10 @@ label p {
 
 label liste {
     font-size: 5em;
->>>>>>> Redesign/master
 }
 
 input {
     display: block;
-<<<<<<< HEAD
-    font-size: 2rem;
-    padding: .5rem;
-    border-radius: 4px;
-    border: 0;
-    margin-top: 1vh;
-=======
     font-size: 5em;
     padding: .5rem;
     border-radius: 4px;
@@ -114,29 +79,7 @@ textarea {
 select {
     font-size: 7em;
     font-family: 'Roboto', sans-serif;
->>>>>>> Redesign/master
 }
-
-textarea {
-    display: block;
-    font-size: 2rem;
-    padding: .5rem;
-    border-radius: 4px;
-    border: 0;
-    margin-top: 1vh;
-    width: 294px;
-    height: 133px;
-}
-
-select {
-    display: block;
-    font-size: 2rem;
-    padding: .5rem;
-    border-radius: 4px;
-    border: 0;
-    margin-top: 1vh;
-}
-
 
 button {
     padding: .75rem 1rem;
@@ -147,11 +90,7 @@ button {
     color: #fff;
     text-shadow: 0 0 6px rgb(0 0 0 / 40%);
     font-weight: 700;
-<<<<<<< HEAD
-    font-size: 3rem;
-=======
     font-size: 2em;
->>>>>>> Redesign/master
 }
 
 /*OLIVERS KODE HER */
