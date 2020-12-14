@@ -36,7 +36,7 @@ html {
 
     nav {
         display: grid;
-        min-height: 10em;
+        height: 55px;
         grid-auto-flow: column;
         background-color: #FFFFFF;
         grid-gap: 1em;
@@ -46,16 +46,12 @@ html {
         position: relative;
     }
 
-
     #logo {
         display: grid;
         margin: auto;
-        background-image: url(mintrecordslogo.svg);
         background-size: cover;
-        width: 36%;
-        height: 223%;
-        padding-right: 7em;
-        padding-left: 7em;
+        height: 180px;
+        width: 150px;
     }
 
     #links1 {
@@ -64,7 +60,7 @@ html {
         align-content: center;
         grid-auto-flow: column;
         grid-gap: 40em;
-        padding-right: 0em;
+        padding-bottom: 115px;
     }
 
     #links2 {
@@ -73,7 +69,7 @@ html {
         align-content: center;
         grid-auto-flow: column;
         grid-gap: 40em;
-        padding-left: 0em;
+        padding-bottom: 115px;
     }
 
     nav a {
@@ -104,6 +100,7 @@ html {
         column-gap: 5em;
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
+        font-size: 4em;
     }
 
     .album1 {
