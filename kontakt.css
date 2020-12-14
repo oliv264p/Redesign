@@ -15,6 +15,7 @@ html {
 }
 
 /*OLIVERS KODE HER */
+
 .form-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,6 +26,8 @@ html {
     color: #fff;
     border-radius: 8px;
     margin-top: 15vh;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 article {
