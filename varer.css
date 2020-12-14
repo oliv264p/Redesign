@@ -83,24 +83,25 @@ html {
         color: #0045C7;
     }
 
-    section {
-        margin: 5px;
-        max-width: 1200px;
-    }
+
 
     .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         margin: 10px;
     }
 
-    #varer .section_wrapper {
+    .section_wrapper img {
+        width: 300px;
+    }
 
-        column-gap: 5em;
+    #varer .section_wrapper {
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         font-size: 4em;
+        text-align: center;
+        padding-bottom: 30px;
     }
 
     .album1 {
@@ -167,9 +168,10 @@ html {
     }
 
     h2 {
-        margin-left: 8rem;
-        margin-top: 3rem;
-        font-family: Helvetica Neue;
+        margin-top: 1em;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 5em;
         font-weight: 300;
     }
 
