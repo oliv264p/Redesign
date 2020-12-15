@@ -31,9 +31,11 @@ html {
 }
 
 #menuknapp {
-    margin-top: -0.4em;
     cursor: pointer;
     font-size: 50px;
+    text-align: right;
+    margin-left: -10px;
+    background-color: #fff;
 }
 
 @media only screen and (max-width: 800px) {
@@ -66,7 +68,7 @@ html {
         justify-content: center;
         align-content: center;
         grid-auto-flow: column;
-        grid-gap: 2em;
+        grid-gap: 30px;
         padding-bottom: 115px;
         font-size: 3px;
     }
@@ -76,7 +78,7 @@ html {
         justify-content: center;
         align-content: center;
         grid-auto-flow: column;
-        grid-gap: 2em;
+        grid-gap: 30px;
         padding-bottom: 115px;
         font-size: 3px;
     }
@@ -312,6 +314,21 @@ html {
 }
 
 @media only screen and (min-width: 1100px) {
+
+    #menuknapp {
+        display: none;
+    }
+
+    #links1.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #links2.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
 
     html {
         background-color: #CBF5FF;
