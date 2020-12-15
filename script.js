@@ -17,6 +17,6 @@ function toggleMenu() {
     if (erSkjult == true){
         document.querySelector("#menuknapp").textContent = "☰"
     } else {
-        document.querySelector("#menuknapp").textContent = "x"
+        document.querySelector("#menuknapp").textContent = "×"
     }
 }

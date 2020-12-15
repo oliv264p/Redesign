@@ -14,107 +14,205 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/*Animasjoner*/
 
-
-
-/*OLIVERS KODE HER */
-
-.kontakt_p {
-    margin-top: 1vh;
+.hidden {
+    opacity: 0;
 }
 
-.form-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: start;
-    padding: 1.5rem;
-    background: #1b1c26;
-    color: #fff;
-    border-radius: 8px;
-    margin-top: 15vh;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-bottom: 5em;
-    font-size: 0.5rem;
+#links1 {
+    transition: transform 0.3s;
+    transform-origin: top left;
 }
 
-article {
-    padding-right: 2rem;
-    border-right: 2px solid #238db4;
+#links2 {
+    transition: transform 0.3s;
+    transform-origin: top left;
 }
 
-article h2 {
-    font-size: 4em;
+#menuknapp {
+    cursor: pointer;
+    font-size: 50px;
+    margin-top: -20px;
 }
-
-article p {
-    font-size: 2em;
-}
-
-/* Forms CSS */
-.form-felt {
-    margin-bottom: 2em;
-    /*font-size: 2em;*/
-}
-
-label {
-    display: grid;
-    justify-items: start;
-    font-weight: 600;
-}
-
-label p {
-    font-size: 5em;
-}
-
-label liste {
-    font-size: 5em;
-}
-
-input {
-    display: block;
-    font-size: 5em;
-    padding: .5rem;
-    border-radius: 4px;
-    border: 0;
-    margin-top: 1vh;
-}
-
-textarea {
-    font-size: 8em;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 1vh;
-}
-
-select {
-    font-size: 7em;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 1vh;
-}
-
-button {
-    padding: .75rem 1rem;
-    margin-top: 1.1rem;
-    border: 0;
-    border-radius: 4px;
-    background: #238db4;
-    color: #fff;
-    text-shadow: 0 0 6px rgb(0 0 0 / 40%);
-    font-weight: 700;
-    font-size: 2em;
-}
-
-/*OLIVERS KODE HER */
 
 
 @media only screen and (max-width: 800px) {
-    html {
-        background-color: red;
+   html {
+        background-color: #CBF5FF;
     }
+
+    nav {
+        display: grid;
+        height: 30px;
+        grid-auto-flow: column;
+        background-color: #FFFFFF;
+        grid-gap: 1em;
+        padding: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        position: relative;
+    }
+
+    #logo {
+        display: grid;
+        margin: auto;
+        background-size: cover;
+        height: 180px;
+        width: 90px;
+    }
+
+    #links1 {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 30px;
+        padding-bottom: 115px;
+        font-size: 3px;
+    }
+
+    #links2 {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 30px;
+        padding-bottom: 115px;
+        font-size: 3px;
+    }
+
+
+    nav a {
+        font-size: 4.5em;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav a:hover {
+        color: #0045C7;
+    }
+
+    .kontakt_p {
+        margin-top: 1vh;
+    }
+
+    .form-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+        padding: 1.5rem;
+        background: #1b1c26;
+        color: #fff;
+        border-radius: 8px;
+        margin-top: 15vh;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 5em;
+        font-size: 0.5rem;
+    }
+
+    article {
+        padding-right: 2rem;
+        border-right: 2px solid #238db4;
+    }
+
+    article h2 {
+        font-size: 3em;
+    }
+
+    article p {
+        font-size: 2em;
+    }
+
+    /* Forms CSS */
+    .form-felt {
+        margin-bottom: 2em;
+        margin-left: -40px;
+        /*font-size: 2em;*/
+    }
+
+    label {
+        display: grid;
+        justify-items: start;
+        font-weight: 600;
+    }
+
+    label p {
+        font-size: 4em;
+    }
+
+    label liste {
+        font-size: 4em;
+    }
+
+    input {
+        display: block;
+        font-size: 3.5em;
+        padding: .5rem;
+        border-radius: 4px;
+        border: 0;
+        margin-top: 1vh;
+    }
+
+    textarea {
+        font-size: 4em;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1vh;
+    }
+
+    select {
+        font-size: 5em;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1vh;
+    }
+
+    button {
+        padding: .75rem 2rem;
+        margin-top: 1.1rem;
+        border: 0;
+        border-radius: 4px;
+        background: #238db4;
+        color: #fff;
+        text-shadow: 0 0 6px rgb(0 0 0 / 40%);
+        font-weight: 700;
+        font-size: 2em;
+        margin-left: -40px;
+    }
+
+    footer {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        position: fixed;
+        height: 2em;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 1em;
+    }
+
 }
 
 @media screen and (max-width: 1100px) and (min-width: 800px) {
+
+    #menuknapp {
+        display: none;
+    }
+
+    #links1.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #links2.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
 
     html {
         background-color: #CBF5FF;
@@ -273,6 +371,20 @@ button {
 
 @media only screen and (min-width: 1100px) {
 
+    #menuknapp {
+        display: none;
+    }
+
+    #links1.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #links2.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
     html {
         background-color: #CBF5FF;
     }
@@ -340,5 +452,95 @@ button {
         color: black;
         font-size: 1em;
     }
+
+    /*OLIVERS KODE HER */
+
+.kontakt_p {
+    margin-top: 1vh;
+}
+
+.form-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    padding: 1.5rem;
+    background: #1b1c26;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 15vh;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+    font-size: 0.5rem;
+}
+
+article {
+    padding-right: 2rem;
+    border-right: 2px solid #238db4;
+}
+
+article h2 {
+    font-size: 4em;
+}
+
+article p {
+    font-size: 2em;
+}
+
+/* Forms CSS */
+.form-felt {
+    margin-bottom: 2em;
+    /*font-size: 2em;*/
+}
+
+label {
+    display: grid;
+    justify-items: start;
+    font-weight: 600;
+}
+
+label p {
+    font-size: 5em;
+}
+
+label liste {
+    font-size: 5em;
+}
+
+input {
+    display: block;
+    font-size: 5em;
+    padding: .5rem;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 1vh;
+}
+
+textarea {
+    font-size: 8em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1vh;
+}
+
+select {
+    font-size: 7em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1vh;
+}
+
+button {
+    padding: .75rem 1rem;
+    margin-top: 1.1rem;
+    border: 0;
+    border-radius: 4px;
+    background: #238db4;
+    color: #fff;
+    text-shadow: 0 0 6px rgb(0 0 0 / 40%);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+/*OLIVERS KODE HER */
 
 }
