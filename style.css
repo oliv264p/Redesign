@@ -14,20 +14,171 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-    html {
-        background-color: red;
-    }
+/*Animasjoner*/
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
 }
 
-@media only screen and (min-width: 600px) {
-
-    html {
-        background-color: blueviolet;
-    }
+#links1 {
+    transition: transform 0.3s;
+    transform-origin: top left;
 }
 
-@media only screen and (min-width: 1100px) {
+#links2 {
+    transition: transform 0.3s;
+    transform-origin: top left;
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        background-color: #CBF5FF;
+    }
+
+    nav {
+        display: grid;
+        height: 30px;
+        grid-auto-flow: column;
+        background-color: #FFFFFF;
+        grid-gap: 1em;
+        padding: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        position: relative;
+    }
+
+    #logo {
+        display: grid;
+        margin: auto;
+        background-size: cover;
+        height: 180px;
+        width: 90px;
+    }
+
+    #links1 {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 2em;
+        padding-bottom: 115px;
+        font-size: 3px;
+    }
+
+    #links2 {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 2em;
+        padding-bottom: 115px;
+        font-size: 3px;
+    }
+
+    nav a {
+        font-size: 4.5em;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav a:hover {
+        color: #0045C7;
+    }
+
+    #splashbilde {}
+
+    #popular {
+        padding-top: 40px;
+        text-align-last: center;
+        font-size: 3em;
+        padding-bottom: 40px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #popular h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+
+    video {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 1vw;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    #kart {
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-bottom: 20px;
+        padding-top: 10em;
+        background-color: #EBFBFF;
+    }
+
+    #google {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+    }
+
+    #informasjon {
+        background-color: #EBFBFF;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+    }
+
+    #tekst {
+        padding-left: 1em;
+        font-size: 8em;
+    }
+
+    #tekst h3 {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+
+    footer {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        position: fixed;
+        height: 2em;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+
+    #menuknapp {
+        display: none;
+    }
+
+    #links1.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #links2.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
 
     html {
         background-color: #CBF5FF;
@@ -101,24 +252,159 @@ html {
         margin: 0 auto;
         margin-top: 1vw;
     }
+
+    #kart {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 80px;
+        background-color: #EBFBFF;
+    }
+
+    #google {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    #informasjon {
+        background-color: #B2DCDC;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    #tekst {
+        padding-left: 1em;
+        font-size: 4em;
+        padding-right: 2em;
+    }
+
+    #tekst h3 {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+
+    footer {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        position: fixed;
+        height: 2em;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+    html {
+        background-color: #CBF5FF;
+    }
+
+    nav {
+        display: grid;
+        height: 55px;
+        grid-auto-flow: column;
+        background-color: #FFFFFF;
+        grid-gap: 1em;
+        padding: 1.5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        position: relative;
+    }
+
+    #logo {
+        display: grid;
+        margin: auto;
+        background-size: cover;
+        height: 180px;
+        width: 150px;
+    }
+
+    #links1 {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 40em;
+        padding-bottom: 115px;
+    }
+
+    #links2 {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+        grid-gap: 40em;
+        padding-bottom: 115px;
+    }
+
+    nav a {
+        font-size: 4.5em;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav a:hover {
+        color: #0045C7;
+    }
+
+    #splashbilde {}
+
+    #popular {
+        padding: 2em;
+        text-align-last: center;
+        font-size: 3em;
+    }
+
+    #popular h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+
+    video {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 1vw;
+    }
+
     #kart {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        padding-bottom: 10em;
+        grid-template-rows: 1fr;
         padding-top: 10em;
+        padding-bottom: 50px;
         background-color: #EBFBFF;
     }
 
     #google {
         grid-column-start: 2;
         grid-column-end: 3;
-        padding-left: 5em;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        padding-left: 4vw;
     }
 
     #informasjon {
         background-color: #B2DCDC;
+        padding-right: 4vw;
         grid-column-start: 3;
         grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
     }
 
     #tekst {
