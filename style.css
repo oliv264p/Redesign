@@ -18,7 +18,6 @@ html {
 
 .hidden {
     opacity: 0;
-    transform: translateX(-100%);
 }
 
 #links1 {
@@ -29,6 +28,12 @@ html {
 #links2 {
     transition: transform 0.3s;
     transform-origin: top left;
+}
+
+#menuknapp {
+    margin-top: -0.4em;
+    cursor: pointer;
+    font-size: 50px;
 }
 
 @media only screen and (max-width: 800px) {
