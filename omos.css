@@ -36,6 +36,7 @@ html {
     font-size: 50px;
     margin-top: -20px;
 }
+
 /*---------------------------------------mobil media--------------------------------------*/
 
 
@@ -112,6 +113,7 @@ html {
 
     .wrapper img {
         width: 7%;
+        height: auto;
         position: absolute;
         top: 4%;
         left: 8.6%;
@@ -119,7 +121,8 @@ html {
     }
 
     .col img {
-        width: 100%
+        width: 100%;
+        height: auto;
     }
 
     section {
@@ -274,6 +277,7 @@ html {
 
     .wrapper img {
         width: 7%;
+        height: auto;
         position: absolute;
         top: 4%;
         left: 8.6%;
@@ -281,7 +285,8 @@ html {
     }
 
     .col img {
-        width: 100%
+        width: 100%;
+        height: auto;
     }
 
     section {
@@ -434,6 +439,7 @@ html {
 
     .wrapper img {
         width: 7%;
+        height: auto;
         position: absolute;
         top: 4%;
         left: 8.6%;
@@ -441,7 +447,8 @@ html {
     }
 
     .col img {
-        width: 100%
+        width: 100%;
+        height: auto;
     }
 
     section {

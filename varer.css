@@ -114,6 +114,7 @@ html {
 
     .section_wrapper img {
         width: 300px;
+        height: auto;
     }
 
     #varer .section_wrapper {
@@ -299,6 +300,7 @@ html {
 
     .section_wrapper img {
         width: 200px;
+        height: auto;
     }
 
     #varer .section_wrapper {
@@ -472,6 +474,7 @@ html {
 
     .section_wrapper img {
         width: 300px;
+        height: auto;
     }
 
     #varer .section_wrapper {
