@@ -80,42 +80,47 @@
         </article>
 
         <!-- Form HTML -->
-        <form action="tak.html" name="kontakt" netlify>
-            <div class="form-felt">
+        <form action="tak.html" name="kontakt">
+
+               <div class="group">
                 <label>
-                    <p>Fulde navn</p>
+                    Fulde navn
                     <input placeholder="fx Peter Jensen" type="text" name="fnavn" required>
-                </label>
+                    </label>
             </div>
 
+
             <div class="form-felt">
+               <div class="group">
                 <label>
-                    <p>E-mail</p>
+                    E-mail
                     <input placeholder="fx peter@gmail.com" name="email" type="email" required>
                 </label>
             </div>
+            </div>
 
             <div class="form-felt">
+               <div class="group">
                 <label>
-                    <p>Emne</p>
+                    Emne
                     <select name="liste">
                         <option value="">Vælg emne</option>
                         <option value="studerende">Køb</option>
                         <option value="underviser">Salg</option>
                         <option value="underviser">Generelle spørgsmål</option>
                         <option value="underviser">Andet</option>
-                        <br>
-                        <br>
-                        <br>
                     </select>
                 </label>
             </div>
+            </div>
 
             <div class="form-felt">
+               <div class="group2">
                 <label>
-                    <p>Skriv din besked her</p>
-                    <textarea name="besked" input placeholder="Fortæl os lidt om hvad din henvendelse drejer sig om!" rows="5" cols="23"></textarea>
+                    Skriv din besked her
+                    <textarea name="besked" rows="5" cols="23"> </textarea>
                 </label>
+            </div>
             </div>
 
             <button>Send formular</button>
