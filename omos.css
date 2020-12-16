@@ -510,6 +510,29 @@ html {
         padding: 70px;
     }
 
+    #bilder {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #bilde1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #bilde2 {
+
+    }
+
+    #bilde4 {
+
+    }
+
+    #bilde5 {
+
+    }
+
     footer {
         display: grid;
         justify-content: center;
