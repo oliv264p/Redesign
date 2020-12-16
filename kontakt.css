@@ -1,27 +1,27 @@
-*{
+* {
     margin: 0px;
     font-size: 62.5%;
 }
 
-.group label{
+.group label {
     font-size: 0.5rem;
 }
 
-.group input{
+.group input {
     font-size: 0.5rem;
     margin-top: 0.5vh;
     margin-bottom: 0.5vh;
 }
 
-.group select{
+.group select {
     font-size: 0.5rem;
 }
 
-.group2 label{
+.group2 label {
     font-size: 0.5rem;
 }
 
-group2 textarea{
+group2 textarea {
     font-size: 0.1rem;
 }
 
@@ -60,7 +60,7 @@ html {
 
 
 @media only screen and (max-width: 800px) {
-   html {
+    html {
         background-color: #CBF5FF;
     }
 
@@ -180,6 +180,12 @@ html {
         margin-top: 1vh;
     }
 
+    .group input {
+        font-size: 0.6em;
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+    }
+
     textarea {
         font-size: 0.5em;
         font-family: 'Roboto', sans-serif;
@@ -219,11 +225,11 @@ html {
         font-size: 1em;
     }
 
-    .group2 label{
+    .group2 label {
         font-size: 3.5em;
     }
 
-    .group2 textarea{
+    .group2 textarea {
         font-size: 0.8em;
 
     }
@@ -487,96 +493,96 @@ html {
 
     /*OLIVERS KODE HER */
 
-.kontakt_p {
-    margin-top: 1vh;
-}
+    .kontakt_p {
+        margin-top: 1vh;
+    }
 
-.form-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: start;
-    padding: 1.5rem;
-    background: #1b1c26;
-    color: #fff;
-    border-radius: 8px;
-    margin-top: 15vh;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-bottom: 5em;
-    font-size: 0.5rem;
-}
+    .form-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+        padding: 1.5rem;
+        background: #1b1c26;
+        color: #fff;
+        border-radius: 8px;
+        margin-top: 15vh;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 5em;
+        font-size: 0.5rem;
+    }
 
-article {
-    padding-right: 2rem;
-    border-right: 2px solid #238db4;
-}
+    article {
+        padding-right: 2rem;
+        border-right: 2px solid #238db4;
+    }
 
-article h2 {
-    font-size: 4em;
-}
+    article h2 {
+        font-size: 4em;
+    }
 
-article p {
-    font-size: 2em;
-}
+    article p {
+        font-size: 2em;
+    }
 
-/* Forms CSS */
-.form-felt {
-    margin-bottom: 2em;
-    /*font-size: 2em;*/
+    /* Forms CSS */
+    .form-felt {
+        margin-bottom: 2em;
+        /*font-size: 2em;*/
+    }
+
+    label {
+        display: grid;
+        justify-items: start;
+        font-weight: 600;
+    }
+
+    label p {
+        font-size: 10rem;
+    }
+
+    label liste {
+        font-size: 5em;
+    }
+
+    input {
+        display: block;
+        font-size: 5em;
+        padding: .5rem;
+        border-radius: 4px;
+        border: 0;
+        margin-top: 1vh;
+    }
+
+    textarea {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1vh;
+    }
+
+    select {
+        font-size: 6em;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1vh;
+    }
+
+    button {
+        padding: .75rem 1rem;
+        margin-top: 1.1rem;
+        border: 0;
+        border-radius: 4px;
+        background: #238db4;
+        color: #fff;
+        text-shadow: 0 0 6px rgb(0 0 0 / 40%);
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+    /*OLIVERS KODE HER */
+
 }
 
 label {
-    display: grid;
-    justify-items: start;
-    font-weight: 600;
-}
-
-label p {
-    font-size: 10rem;
-}
-
-label liste {
-    font-size: 5em;
-}
-
-input {
-    display: block;
-    font-size: 5em;
-    padding: .5rem;
-    border-radius: 4px;
-    border: 0;
-    margin-top: 1vh;
-}
-
-textarea {
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 1vh;
-}
-
-select {
-    font-size: 6em;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 1vh;
-}
-
-button {
-    padding: .75rem 1rem;
-    margin-top: 1.1rem;
-    border: 0;
-    border-radius: 4px;
-    background: #238db4;
-    color: #fff;
-    text-shadow: 0 0 6px rgb(0 0 0 / 40%);
-    font-weight: 700;
-    font-size: 2em;
-}
-
-/*OLIVERS KODE HER */
-
-}
-
-label{
     font-size: 0.1rem;
 }
