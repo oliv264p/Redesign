@@ -381,7 +381,10 @@ html {
         color: #0045C7;
     }
 
-    #splashbilde {}
+    #splashbilde img {
+        height: auto;
+        width: 100%;
+    }
 
     #popular {
         padding: 2em;
