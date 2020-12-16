@@ -105,7 +105,8 @@ html {
     #popular h2 {
         font-family: 'Roboto', sans-serif;
         font-size: 4em;
-        font-weight: 600;
+        font-weight: 500;
+        padding-bottom: 20px;
     }
 
     video {
@@ -243,12 +244,14 @@ html {
     #popular {
         padding: 2em;
         text-align-last: center;
-        font-size: 3em;
     }
 
     #popular h2 {
         font-family: 'Roboto', sans-serif;
-        font-weight: 300;
+        font-size: 4em;
+        font-weight: 500;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 
     video {
@@ -390,12 +393,14 @@ html {
     #popular {
         padding: 2em;
         text-align-last: center;
-        font-size: 3em;
     }
 
     #popular h2 {
         font-family: 'Roboto', sans-serif;
-        font-weight: 300;
+        font-size: 4em;
+        font-weight: 500;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 
     video {
