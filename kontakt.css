@@ -137,7 +137,7 @@ html {
     }
 
     article {
-        padding-right: 2rem;
+        padding-right: 1rem;
         border-right: 2px solid #238db4;
     }
 
@@ -152,7 +152,7 @@ html {
     /* Forms CSS */
     .form-felt {
         margin-bottom: 2em;
-        margin-left: -40px;
+
         /*font-size: 2em;*/
     }
 
@@ -160,6 +160,7 @@ html {
         display: grid;
         justify-items: start;
         font-weight: 600;
+        margin-left: -5vh;
     }
 
     label p {
@@ -192,7 +193,7 @@ html {
     }
 
     button {
-        padding: .75rem 2rem;
+        padding: .75rem 1rem;
         margin-top: 1.1rem;
         border: 0;
         border-radius: 4px;
@@ -219,7 +220,7 @@ html {
     }
 
     .group2 label{
-        font-size: 5em;
+        font-size: 3.5em;
     }
 
     .group2 textarea{
@@ -361,7 +362,7 @@ html {
     }
 
     textarea {
-        font-size: 6em;
+        font-size: 2em;
         font-family: 'Roboto', sans-serif;
         margin-top: 1vh;
     }
