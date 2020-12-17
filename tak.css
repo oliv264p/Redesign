@@ -1,0 +1,23 @@
+html{
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 10vh;
+    margin-left: 15vh;
+
+}
+
+wrapper{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+
+.billede{
+    width: 100%;
+    height: auto;
+    border-radius: 5em;
+    max-height: 50vh;
+}
