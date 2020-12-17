@@ -374,6 +374,7 @@ html {
     }
 
     #bilder {
+        padding-top: 70px;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -567,6 +568,7 @@ html {
     }
 
     #bilder {
+        padding-top: 80px;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
